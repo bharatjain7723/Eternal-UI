@@ -1,0 +1,37 @@
+.alert {
+  position: relative;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.alert-primary {
+  background-color: rgba(var(--primary), var(--background-alpha));
+  border-color: rgba(var(--primary), var(--border-alpha));
+}
+
+.alert-secondary {
+  background-color: rgba(var(--secondary), var(--background-alpha));
+  border-color: rgba(var(--secondary), var(--border-alpha));
+}
+
+.alert-success {
+  background-color: rgba(var(--success), var(--background-alpha));
+  border-color: rgba(var(--success), var(--border-alpha));
+}
+
+.alert-danger {
+  background-color: rgba(var(--danger), var(--background-alpha));
+  border-color: rgba(var(--danger), var(--border-alpha));
+}
+
+.alert-warning {
+  background-color: rgba(var(--warning), var(--background-alpha));
+  border-color: rgba(var(--warning), var(--border-alpha));
+}
+
+.alert-info {
+  background-color: rgba(var(--info), var(--background-alpha));
+  border-color: rgba(var(--info), var(--border-alpha));
+}
