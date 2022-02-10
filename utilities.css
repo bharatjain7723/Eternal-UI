@@ -7,4 +7,6 @@
   --danger: 220, 53, 69; /* #dc3545 */
   --background-alpha: 0.5;
   --border-alpha: 0.25;
+  --avatar-size: 2em;
+  --avatar-border: none;
 }
