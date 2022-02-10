@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 * {
   padding: 0;
@@ -12,4 +13,10 @@
 
 .component-heading {
   margin-bottom: 1.5rem;
+}
+
+.component-sub-container {
+  display: flex;
+  gap: 1.5em;
+  flex-wrap: wrap;
 }
