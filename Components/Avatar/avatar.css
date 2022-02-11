@@ -2,7 +2,7 @@
   width: var(--avatar-size);
   border: var(--avatar-border);
   border-radius: 50%;
-  margin: 2.4rem 0.5rem;
+  /* margin: 2.4rem 0.5rem; */
   margin-top: 1.2rem;
 }
 

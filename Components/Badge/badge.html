@@ -1,37 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Bharat Jain" />
-  <meta name="title" content="Alert Component" />
+  <meta name="title" content="Badge Component" />
   <title>Eternals-UI</title>
   <link rel="stylesheet" href="/index.css">
   <link rel="stylesheet" href="/utilities.css">
-<link rel="stylesheet" href="alert.css">
+  <link rel="stylesheet" href="/Components/Avatar/avatar.css">
+  <link rel="stylesheet" href="badge.css">
 </head>
+
 <body>
   <div class="component-container">
-    <h3 class="component-heading">Alert</h3>
-    <div class="alert alert-primary" role="alert">
-      A simple primary alert—check it out!
+    <h3 class="component-heading">Icon with a badge</h3>
+    <div class="component-sub-container">
+      <div class="icon-badge-container badge-large">
+        <button class="badge-icon-button">
+          <i class="material-icons icon-with-badge">email</i>
+        </button>
+        <div class="badge-icon">12</div>
+      </div>
+      <div class="icon-badge-container badge-medium">
+        <button class="badge-icon-button">
+          <i class="material-icons icon-with-badge">email</i>
+        </button>
+        <div class="badge-icon">12</div>
+      </div>
+      <div class="icon-badge-container badge-small">
+        <button class="badge-icon-button">
+          <i class="material-icons icon-with-badge">email</i>
+        </button>
+        <div class="badge-icon">12</div>
+      </div>
     </div>
-    <div class="alert alert-secondary" role="alert">
-      A simple secondary alert—check it out!
-    </div>
-    <div class="alert alert-success" role="alert">
-      A simple success alert—check it out!
-    </div>
-    <div class="alert alert-danger" role="alert">
-      A simple danger alert—check it out!
-    </div>
-    <div class="alert alert-warning" role="alert">
-      A simple warning alert—check it out!
-    </div>
-    <div class="alert alert-info" role="alert">
-      A simple info alert—check it out!
+
+
+    <h3 class="component-heading">Avatar with a badge</h3>
+    <div class="component-sub-container">
+      <div class="avatar-badge-container badge-large">
+        <img src="/Images/avatar.png" alt="Eternal-UI logo large" class="avatar avatar-large" />
+        <div class="badge-avatar"></div>
+      </div>
+      <div class="avatar-badge-container badge-medium">
+        <img src="/Images/avatar.png" alt="Eternal-UI logo medium" class="avatar avatar-medium" />
+        <div class="badge-avatar"></div>
+      </div>
+      <div class="avatar-badge-container badge-small">
+        <img src="/Images/avatar.png" alt="Eternal-UI logo small" class="avatar avatar-small" />
+        <div class="badge-avatar"></div>
+      </div>
     </div>
   </div>
 </body>
+
 </html>

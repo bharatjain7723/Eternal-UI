@@ -16,4 +16,11 @@
 
   --avatar-size: 2em;
   --avatar-border: none;
+
+  --icon-badge-color: #00a4ef;
+  --icon-badge-bg-color: #dc2626;
+  --icon-badge-border: 1px solid #fff;
+
+  --avatar-badge-bg-color: #ff0000;
+  --avatar-badge-border: 1px solid #fff;
 }
