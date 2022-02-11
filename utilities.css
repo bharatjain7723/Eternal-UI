@@ -7,6 +7,13 @@
   --danger: 220, 53, 69; /* #dc3545 */
   --background-alpha: 0.5;
   --border-alpha: 0.25;
+
+  --color-light: 255, 255, 255;
+  --color-dark: 0, 0, 0;
+
+  --button-icon-size: 1.4rem;
+  --floating-button-icon-size: 1.5rem;
+
   --avatar-size: 2em;
   --avatar-border: none;
 }
